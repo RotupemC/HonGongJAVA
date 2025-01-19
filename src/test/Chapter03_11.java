@@ -14,6 +14,7 @@ public class Chapter03_11 {
 		String strPassword = scanner.nextLine();
 		int password = Integer.parseInt(strPassword);
 		
+		
 		if(name.equals("java")) {
 			if(password==12345) {
 				System.out.println("로그인 성공");
